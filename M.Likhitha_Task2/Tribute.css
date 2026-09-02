@@ -1,0 +1,148 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.7;
+}
+.hero {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 45px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.image-section {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.image-section img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px gray;
+}
+.biography {
+    background-color: #e8f0f7;
+    padding: 50px 15%;
+}
+
+.biography h2 {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.biography p {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.achievements {
+    background-color: #fff3cd;
+    padding: 50px 10%;
+}
+
+.achievements h2 {
+    text-align: center;
+    font-family: Georgia, serif;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 10px gray;
+}
+
+.card h3 {
+    color: #1e3a5f;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.quote blockquote {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-style: italic;
+    max-width: 800px;
+    margin: auto;
+}
+
+.quote p {
+    margin-top: 20px;
+}
+.legacy {
+    background-color: #e8f5e9;
+    padding: 50px 15%;
+    text-align: center;
+}
+
+.legacy h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .biography,
+    .legacy {
+        padding: 30px 20px;
+    }
+
+    .quote blockquote {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+}
